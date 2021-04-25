@@ -1,0 +1,947 @@
+[
+  {
+    "name": "Brixo",
+    "amount": {
+      "text": "3,000 - 30,000 SEK",
+      "min": 3000,
+      "max": 30000
+    },
+    "interest": 25,
+    "term": {
+      "text": "1 - 180 månader",
+      "min": 1,
+      "max": 180,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 70",
+      "min": 18,
+      "max": 70
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "29.3 %",
+      "min": 29,
+      "max": null
+    },
+    "incomerequirement": 150,
+    "setupfee": 0,
+    "adminfee": 0,
+    "loanexample": "Ett lån på 20 000 kronor till 25,95% bunden ränta som återbetalas under 12 månader med 12 avbetalningar om 1 910 kronor, 0 kr i uppläggningsavgift samt 0 kronor i aviavgift ger en effektiv ränta på totalt 29,3%. Totalt att återbetala blir\n22 920 kronor.",
+    "currency": null
+  },
+  {
+    "name": "Cashbuddy",
+    "amount": {
+      "text": "5,000 - 25,000 SEK",
+      "min": 5000,
+      "max": 25000
+    },
+    "interest": 26,
+    "term": {
+      "text": "1 - 5 år",
+      "min": 1,
+      "max": 5,
+      "type": "år"
+    },
+    "timeunitId": 3,
+    "age": {
+      "text": "20 - 75",
+      "min": 20,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "29.4 %",
+      "min": 29,
+      "max": null
+    },
+    "incomerequirement": 0,
+    "setupfee": 0,
+    "adminfee": 0,
+    "loanexample": "Prisexempel: 25.000 kr på 5 år. Bunden årsränta: 26,05 %. Effektiv årsränta: 29,40 %. Månadskostnad: 749 kr (60 ggr). Totalt att återbetala: 44.955 kr. (Uppdaterat 2018-09-01).",
+    "currency": null
+  },
+  {
+    "name": "Daypay",
+    "amount": {
+      "text": "1,000 - 20,000 SEK",
+      "min": 1000,
+      "max": 20000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 72 månader",
+      "min": 1,
+      "max": 72,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "20 - 75",
+      "min": 20,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "69.95 - 4,568.91 %",
+      "min": 69,
+      "max": 4568
+    },
+    "incomerequirement": 0,
+    "setupfee": 300,
+    "adminfee": 39,
+    "loanexample": "Låna 5 000 kr i 60 dagar. Totalt att återbetala 5 719 kr, alltså 2 859 kr per månad. Effektiv ränta 126,45%, årlig fast ränta 39%. Uppläggningsavgift 276 kr, för återkommande kunder inom 12 mån 221 kr. Aviavgifter 59 kr.",
+    "currency": null
+  },
+  {
+    "name": "Everydayplus",
+    "amount": {
+      "text": "1,000 - 25,000 SEK",
+      "min": 1000,
+      "max": 25000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 12 månader",
+      "min": 1,
+      "max": 12,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "20 - 75",
+      "min": 20,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "113.46 %",
+      "min": 113,
+      "max": null
+    },
+    "incomerequirement": 120,
+    "setupfee": 395,
+    "adminfee": 39,
+    "loanexample": "3 000 kr uttag på 12 månader med 39 % nominell ränta. Vid betalning av minsta beloppet (4 % av totala kapitalskulden eller 200 kronor) samt tillkommande avgifter och räntan varje månad i 12 månader (865 kr i sista månaden), blir effektiv ränta 113,46 %. Att återbetala: 4654 kr. Inkluderade avgifter avser uppläggningsavgift om 395 kr, uttagningsavgift 50 kr samt administrationsavgift om 39 kr.",
+    "currency": null
+  },
+  {
+    "name": "Expresskredit",
+    "amount": {
+      "text": "1,000 - 30,000 SEK",
+      "min": 1000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "0 - 999 månader",
+      "min": 0,
+      "max": 999,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 72",
+      "min": 18,
+      "max": 72
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "53.12 - 84.23 %",
+      "min": 53,
+      "max": 84
+    },
+    "incomerequirement": 50,
+    "setupfee": 280,
+    "adminfee": 45,
+    "loanexample": "Lånexempel (2021-01-04):\nEn kontokredit utnyttjad om 15 000 kr till 39.8 % rörlig ränta som återbetalas på 12 avbetalningar på 1 787 kr i snitt, 280 kr i uppläggningsavgift, 45 kr i månads/aviavgift och 95 kr i uttagsavgift ger en effektiv ränta på totalt 58,91 %. Totalt att återbetala 21 430 kr",
+    "currency": null
+  },
+  {
+    "name": "Ferratum",
+    "amount": {
+      "text": "1,000 - 45,000 SEK",
+      "min": 1000,
+      "max": 45000
+    },
+    "interest": 39,
+    "term": {
+      "text": "4 - 46 månader",
+      "min": 4,
+      "max": 46,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "21 - 70",
+      "min": 21,
+      "max": 70
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "47.64 %",
+      "min": 47,
+      "max": null
+    },
+    "incomerequirement": 0,
+    "setupfee": 0,
+    "adminfee": 0,
+    "loanexample": "Ett lån om 10 000 kr i 12 månader, totalt belopp att återbetala 12 145 kr (snitt 1012 kr per månad). Effektiv årsränta: 47,64%. Kontokredit med variabel nominell årsränta på 39,60%. Övriga avgifter: Uppläggningsavgift 0 kr. Uttagsavgift 0 kr.",
+    "currency": null
+  },
+  {
+    "name": "Fixza",
+    "amount": {
+      "text": "1,000 - 5,000 SEK",
+      "min": 1000,
+      "max": 5000
+    },
+    "interest": 39,
+    "term": {
+      "text": "30 - 90 dagar",
+      "min": 30,
+      "max": 90,
+      "type": "dagar"
+    },
+    "timeunitId": 1,
+    "age": {
+      "text": "18 - 70",
+      "min": 18,
+      "max": 70
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "386 %",
+      "min": 386,
+      "max": null
+    },
+    "incomerequirement": 100,
+    "setupfee": 495,
+    "adminfee": 39,
+    "loanexample": "5 000 kr i 30 dagar. Uppläggningsavgift 495 kr, administrationsavgift 39 kr , nominell bunden ränta 39%, effektiv ränta 386%, totalt att återbetala 5 694 kr.",
+    "currency": null
+  },
+  {
+    "name": "Flexkontot",
+    "amount": {
+      "text": "3,000 - 30,000 SEK",
+      "min": 3000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 180 månader",
+      "min": 1,
+      "max": 180,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 70",
+      "min": 18,
+      "max": 70
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "58.14 - 128.3 %",
+      "min": 58,
+      "max": 128
+    },
+    "incomerequirement": 120,
+    "setupfee": 475,
+    "adminfee": 25,
+    "loanexample": "Ett lån på 10 000 kronor till 39,48% bunden ränta som återbetalas under 12 månader med 12 avbetalningar om 1 096 kronor, 475 kronor i uppläggningsavgift samt 25 kronor i aviavgift ger en effektiv ränta på totalt 69,3%. Totalt att återbetala blir 13 152 kronor",
+    "currency": null
+  },
+  {
+    "name": "Frogtail",
+    "amount": {
+      "text": "5,000 - 40,000 SEK",
+      "min": 5000,
+      "max": 40000
+    },
+    "interest": 26,
+    "term": {
+      "text": "1 - 5 år",
+      "min": 1,
+      "max": 5,
+      "type": "år"
+    },
+    "timeunitId": 3,
+    "age": {
+      "text": "18 - 75",
+      "min": 18,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "29.3 %",
+      "min": 29,
+      "max": null
+    },
+    "incomerequirement": 0,
+    "setupfee": 0,
+    "adminfee": 0,
+    "loanexample": "Prisexempel: Låna 20 000 kr med återbetalningstid på 3 år och nominell bunden ränta på 26%. \nUppläggningsavgift 0 kr, administrationsavgift 0 kr, effektivränta 29,3%, totalt att återbetala 28 873 kr (802 kr per månad i 36 månader).",
+    "currency": null
+  },
+  {
+    "name": "GF Money",
+    "amount": {
+      "text": "1,000 - 30,000 SEK",
+      "min": 1000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "0 - 999 månader",
+      "min": 0,
+      "max": 999,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 72",
+      "min": 18,
+      "max": 72
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "53.12 - 84.23 %",
+      "min": 53,
+      "max": 84
+    },
+    "incomerequirement": 50,
+    "setupfee": 280,
+    "adminfee": 45,
+    "loanexample": "Lånexempel (2021-01-04):\nEn kontokredit utnyttjad om 15 000 kr till 39.8 % rörlig ränta som återbetalas på 12 avbetalningar på 1 787 kr i snitt, 280 kr i uppläggningsavgift, 45 kr i månads/aviavgift och 95 kr i uttagsavgift ger en effektiv ränta på totalt 58,91 %. Totalt att återbetala 21 430 kr",
+    "currency": null
+  },
+  {
+    "name": "GoodCash",
+    "amount": {
+      "text": "10,000 - 50,000 SEK",
+      "min": 10000,
+      "max": 50000
+    },
+    "interest": 25,
+    "term": {
+      "text": "1 - 8 år",
+      "min": 1,
+      "max": 8,
+      "type": "år"
+    },
+    "timeunitId": 3,
+    "age": {
+      "text": "20 - 62",
+      "min": 20,
+      "max": 62
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "29 %",
+      "min": 29,
+      "max": null
+    },
+    "incomerequirement": 0,
+    "setupfee": 0,
+    "adminfee": 0,
+    "loanexample": "Räkneexempel: Om du lånar 30.000 kronor med en återbetalningstid om 60 månader och följer avtalad plan kommer den effektiva årsräntan att uppgå till 29,00 % och den nominella fasta årsräntan till 25,74 %. Månadskostnaden kommer att vara 894 kronor och du kommer totalt att ha betalat 53.640 kronor (d.v.s. 749 kronor x 60 månader) när lånet är återbetalat. Detta innebär att kostnaden för krediten blir 23.640 kronor.",
+    "currency": null
+  },
+  {
+    "name": "Klara lån",
+    "amount": {
+      "text": "2,000 - 150,000 SEK",
+      "min": 2000,
+      "max": 150000
+    },
+    "interest": 6,
+    "term": {
+      "text": "1 - 120 månader",
+      "min": 1,
+      "max": 120,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 80",
+      "min": 18,
+      "max": 80
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "8.57 - 289 %",
+      "min": 8,
+      "max": 289
+    },
+    "incomerequirement": 100,
+    "setupfee": 0,
+    "adminfee": 0,
+    "loanexample": "Räntan är rörlig och sätts individuellt. Ett lån på 30 000 kr till 26.05 procents nominell ränta med en återbetalningstid på 24 månader, med 24 avbetalningar om 1 617 kronor och 0 kronor i uppläggnings/aviavgift ger en effektiv ränta på 29.4 procent. Totalt att återbetala blir 38 808 kronor",
+    "currency": null
+  },
+  {
+    "name": "Kontantfinans",
+    "amount": {
+      "text": "3,000 - 30,000 SEK",
+      "min": 3000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 180 månader",
+      "min": 1,
+      "max": 180,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 70",
+      "min": 18,
+      "max": 70
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "58.14 - 128.3 %",
+      "min": 58,
+      "max": 128
+    },
+    "incomerequirement": 120,
+    "setupfee": 475,
+    "adminfee": 25,
+    "loanexample": "Ett lån på 10 000 kronor till 39,48% bunden ränta som återbetalas under 12 månader med 12 avbetalningar om 1 096 kronor, 475 kronor i uppläggningsavgift samt 25 kronor i aviavgift ger en effektiv ränta på totalt 69,3%. Totalt att återbetala blir 13 152 kronor.",
+    "currency": null
+  },
+  {
+    "name": "Kredit 365",
+    "amount": {
+      "text": "2,000 - 5,000 SEK",
+      "min": 2000,
+      "max": 5000
+    },
+    "interest": 39,
+    "term": {
+      "text": "30 dagar",
+      "min": 30,
+      "max": null,
+      "type": "dagar"
+    },
+    "timeunitId": 1,
+    "age": {
+      "text": "18 - 75",
+      "min": 18,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "260 - 1,135 %",
+      "min": 260,
+      "max": 1135
+    },
+    "incomerequirement": 0,
+    "setupfee": 350,
+    "adminfee": 45,
+    "loanexample": "Prisexempel: Låna 5 000 kr i 30 dagar. Uppläggningsavgift 350 kr, administrationsavgift 45 kr , nominell bunden ränta 39%, effektivränta 260%, totalt att återbetala 5 555 kr.\n",
+    "currency": null
+  },
+  {
+    "name": "Kundfinans",
+    "amount": {
+      "text": "1,000 - 30,000 SEK",
+      "min": 1000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "0 - 999 månader",
+      "min": 0,
+      "max": 999,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 72",
+      "min": 18,
+      "max": 72
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "53.12 - 84.23 %",
+      "min": 53,
+      "max": 84
+    },
+    "incomerequirement": 50,
+    "setupfee": 280,
+    "adminfee": 45,
+    "loanexample": "Lånexempel (2021-01-04):\nEn kontokredit utnyttjad om 15 000 kr till 39.8 % rörlig ränta som återbetalas på 12 avbetalningar på 1 787 kr i snitt, 280 kr i uppläggningsavgift, 45 kr i månads/aviavgift och 95 kr i uttagsavgift ger en effektiv ränta på totalt 58,91 %. Totalt att återbetala 21 430 kr",
+    "currency": null
+  },
+  {
+    "name": "Loanstep",
+    "amount": {
+      "text": "3,000 - 25,000 SEK",
+      "min": 3000,
+      "max": 25000
+    },
+    "interest": 15,
+    "term": {
+      "text": "5 - 60 månader",
+      "min": 5,
+      "max": 60,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 75",
+      "min": 18,
+      "max": 75
+    },
+    "interestfree": true,
+    "interestfreeId": 1,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "30 - 1,177 %",
+      "min": 30,
+      "max": 1177
+    },
+    "incomerequirement": 150,
+    "setupfee": 0,
+    "adminfee": 60,
+    "loanexample": "Ett lån taget 2021-02-01 med kreditbelopp på 5 500 kr till 38,4 % bunden kreditränta med en återbetalningstid på 5 månader, med fem avbetalningar om ca 1 792 kronor, totalt 3 000 kr förmedlingsavgifter och 60 kronor i aviavgifter, ger en effektiv ränta på totalt 1 051 % och ett sammanlagt belopp om 9 339 kr. Kreditförmedling sker i samarbete med Savelends peer to peer lending.",
+    "currency": null
+  },
+  {
+    "name": "Lumify",
+    "amount": {
+      "text": "2,000 - 20,000 SEK",
+      "min": 2000,
+      "max": 20000
+    },
+    "interest": 39,
+    "term": {
+      "text": "30 - 365 dagar",
+      "min": 30,
+      "max": 365,
+      "type": "dagar"
+    },
+    "timeunitId": 1,
+    "age": {
+      "text": "18 - 75",
+      "min": 18,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "12.87 - 236.5 %",
+      "min": 12,
+      "max": 236
+    },
+    "incomerequirement": 0,
+    "setupfee": 495,
+    "adminfee": 60,
+    "loanexample": "En kredit på 5 000 kr till 39,5 % ränta med en återbetalningstid på sex månader (med sex återbetalningar om 939,89 kr, 1 383,89 kr, 1 346,91 kr, 1 309,94 kr, 1 272,96 kr samt 1 235,98 kr) och 695 kr i uppläggningsavgift, 695 kr i förlängningsavgift samt 360 kr i aviavgifter ger en effektiv ränta på totalt 126,94 %. Det totala beloppet att återbetala är 7 489,57 kr.",
+    "currency": null
+  },
+  {
+    "name": "Merax",
+    "amount": {
+      "text": "3,000 - 30,000 SEK",
+      "min": 3000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 180 månader",
+      "min": 1,
+      "max": 180,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 70",
+      "min": 18,
+      "max": 70
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "58.14 - 128.3 %",
+      "min": 58,
+      "max": 128
+    },
+    "incomerequirement": 120,
+    "setupfee": 475,
+    "adminfee": 25,
+    "loanexample": "Ett lån på 10 000 kronor till 39,48% bunden ränta som återbetalas under 12 månader med 12 avbetalningar om 1 096 kronor, 475 kronor i uppläggningsavgift samt 25 kronor i aviavgift ger en effektiv ränta på totalt 69,3%. Totalt att återbetala blir 13 152 kronor.",
+    "currency": null
+  },
+  {
+    "name": "Moank",
+    "amount": {
+      "text": "25,000 - 600,000 SEK",
+      "min": 25000,
+      "max": 600000
+    },
+    "interest": 3,
+    "term": {
+      "text": "1 - 15 år",
+      "min": 1,
+      "max": 15,
+      "type": "år"
+    },
+    "timeunitId": 3,
+    "age": {
+      "text": "20 - 0",
+      "min": 20,
+      "max": 0
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "3.98 - 19.47 %",
+      "min": 3,
+      "max": 19
+    },
+    "incomerequirement": 150,
+    "setupfee": 395,
+    "adminfee": 0,
+    "loanexample": "Lånesumma 100 000 kr och annuitetslån 10 år (120 ggr). Nominell ränta 6,5 % (effektiv ränta 6,79 %). Månadskostnad 1 140 kr. Totalt belopp 136 790 kr. Räntan sätts individuellt baserat på din kreditprofil. Ingen aviavgift vid autogiro, övrigt 39 kr/avi. 395 kr i uppläggningsavgift. Räntespann: 3,9 % - 14,95 %. Återbetalningstid 1-15 år. Uppdaterat: 2021-02-01.",
+    "currency": null
+  },
+  {
+    "name": "Mobillån",
+    "amount": {
+      "text": "1,000 - 30,000 SEK",
+      "min": 1000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 72 månader",
+      "min": 1,
+      "max": 72,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "20 - 75",
+      "min": 20,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "55 - 377 %",
+      "min": 55,
+      "max": 377
+    },
+    "incomerequirement": 150,
+    "setupfee": 295,
+    "adminfee": 35,
+    "loanexample": "Exempel (beräknat 2021-01-01): Beräknad med antagandet att kreditlimiten är 10 000 kr och att krediten lämnas för en ettårsperiod och slutbetalas genom 12 återbetalningar med lika stora månadsbetalningar är den effektiva räntan 65,83 % och krediträntan, som är rörlig, f.n. 39 %, per år. Månadskostnaden är 1 095 kr och totalt att betala tillbaka blir 12 979 kr inkl. avgifter.",
+    "currency": null
+  },
+  {
+    "name": "Monetti",
+    "amount": {
+      "text": "2,000 - 20,000 SEK",
+      "min": 2000,
+      "max": 20000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 12 månader",
+      "min": 1,
+      "max": 12,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 75",
+      "min": 18,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "53.2 - 70 %",
+      "min": 53,
+      "max": 70
+    },
+    "incomerequirement": 0,
+    "setupfee": 350,
+    "adminfee": 45,
+    "loanexample": "Kontokredit med nominell bunden ränta 39%, uppläggningsavgift 350 kr, uttagsavgift 50 kr och administrationsavgift 15 kr. Lägsta månadsbelopp 250 kr. Prisexempel: Vid utnyttjad kredit på 15 000 kr i 12 månader, totalt att återbetala 21 032 kr (1 752 kr per månad). Effektiv årsränta: 53,2%.",
+    "currency": null
+  },
+  {
+    "name": "Nätlån",
+    "amount": {
+      "text": "1,000 - 10,000 SEK",
+      "min": 1000,
+      "max": 10000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 6 månader",
+      "min": 1,
+      "max": 6,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 65",
+      "min": 18,
+      "max": 65
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "73 - 1,000 %",
+      "min": 73,
+      "max": 1000
+    },
+    "incomerequirement": 96,
+    "setupfee": 300,
+    "adminfee": 35,
+    "loanexample": "Ett lån på 10 000 kr med en återbetalningstid på 6 månader. 300 kr i uppläggningsavgift, administrationsavgift på 35 kr per månad och en nominell fast årsränta på 39 %. Totalt att återbetala är 11 703 kr (1 951 kr per månad i 6 månader) vilket ger en effektiv ränta på 73 %.",
+    "currency": null
+  },
+  {
+    "name": "Saldo",
+    "amount": {
+      "text": "1,000 - 5,000 SEK",
+      "min": 1000,
+      "max": 5000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 3 månader",
+      "min": 1,
+      "max": 3,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 0",
+      "min": 18,
+      "max": 0
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "272 - 8,348 %",
+      "min": 272,
+      "max": 8348
+    },
+    "incomerequirement": 100,
+    "setupfee": 395,
+    "adminfee": 0,
+    "loanexample": "Låneexempel: Låna 5 000 kr i 3 månad. Uppläggningsavgift 395 kr, administrationsavgift 0 kr, nominell bunden ränta 39 %, effektiv ränta 133,5 %, totalt att återbetala 5 749,41 kr (5 749,41 kr per en månad för tre månad)   ",
+    "currency": null
+  },
+  {
+    "name": "Slantar",
+    "amount": {
+      "text": "10,000 - 30,000 SEK",
+      "min": 10000,
+      "max": 30000
+    },
+    "interest": 25,
+    "term": {
+      "text": "1 - 5 år",
+      "min": 1,
+      "max": 5,
+      "type": "år"
+    },
+    "timeunitId": 3,
+    "age": {
+      "text": "20 - 65",
+      "min": 20,
+      "max": 65
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "28.07 %",
+      "min": 28,
+      "max": null
+    },
+    "incomerequirement": 0,
+    "setupfee": 0,
+    "adminfee": 49,
+    "loanexample": "10 000 kr i 3 år. Eff. ränta 28,07 %. Kostnad 398 kr/mån. Totalt 14 328 kr.",
+    "currency": null
+  },
+  {
+    "name": "SMSPengar",
+    "amount": {
+      "text": "1,000 - 30,000 SEK",
+      "min": 1000,
+      "max": 30000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 12 månader",
+      "min": 1,
+      "max": 12,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 72",
+      "min": 18,
+      "max": 72
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "53.12 - 84.23 %",
+      "min": 53,
+      "max": 84
+    },
+    "incomerequirement": 50,
+    "setupfee": 280,
+    "adminfee": 45,
+    "loanexample": "Lånexempel (2021-01-04):\nEn kontokredit utnyttjad om 15 000 kr till 39.8 % rörlig ränta som återbetalas på 12 avbetalningar på 1 787 kr i snitt, 280 kr i uppläggningsavgift, 45 kr i månads/aviavgift och 95 kr i uttagsavgift ger en effektiv ränta på totalt 58,91 %. Totalt att återbetala 21 430 kr",
+    "currency": null
+  },
+  {
+    "name": "Tryggkredit",
+    "amount": {
+      "text": "1,000 - 60,000 SEK",
+      "min": 1000,
+      "max": 60000
+    },
+    "interest": 22,
+    "term": {
+      "text": "1 - 72 månader",
+      "min": 1,
+      "max": 72,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "20 - 75",
+      "min": 20,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": false,
+    "paymentremarksId": 0,
+    "effectiveinterest": {
+      "text": "24.97 %",
+      "min": 24,
+      "max": null
+    },
+    "incomerequirement": 150,
+    "setupfee": 0,
+    "adminfee": 0,
+    "loanexample": "Exempel (beräknat 2021-01-01): Beräknad med antagandet att kreditlimiten är 15 000 kr och att krediten lämnas för en ettårsperiod och slutbetalas genom 12 återbetalningar med lika stora månadsbetalningar är den effektiva räntan 24,97 % och krediträntan, som är rörlig, f.n. 22,5 %, per år. Månadskostnaden är 1 407,5 kr och totalt att betala tillbaka blir 16 890 kr inkl. avgifter.",
+    "currency": null
+  },
+  {
+    "name": "ViaConto",
+    "amount": {
+      "text": "1,000 - 20,000 SEK",
+      "min": 1000,
+      "max": 20000
+    },
+    "interest": 39,
+    "term": {
+      "text": "1 - 72 månader",
+      "min": 1,
+      "max": 72,
+      "type": "månader"
+    },
+    "timeunitId": 2,
+    "age": {
+      "text": "18 - 75",
+      "min": 18,
+      "max": 75
+    },
+    "interestfree": false,
+    "interestfreeId": 0,
+    "paymentremarks": true,
+    "paymentremarksId": 1,
+    "effectiveinterest": {
+      "text": "91.8 - 9,999 %",
+      "min": 91,
+      "max": 9999
+    },
+    "incomerequirement": 0,
+    "setupfee": 380,
+    "adminfee": 45,
+    "loanexample": "Räkneexempel: Ett lån på 6 000 kronor till 39.5 procents bunden ränta med en\nåterbetalningstid på en månad, med ett betalnig om 196 kronor i ränta och\n380 kronor i uppläggningsavgift samt 45 kronor i aviavgift ger en\neffektiv ränta på totalt 261.1 procent. Totalt att återbetala blir 6621 \nkronor.",
+    "currency": null
+  }
+]
